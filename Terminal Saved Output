@@ -1,0 +1,127 @@
+Last login: Tue Mar 24 22:42:31 on ttys001
+➜  ~ ls
+Applications               Music
+CorsoCucina2.sav           Pictures
+Creative Cloud Files       Public
+Desktop                    Sites
+Documents                  demographics + outlier.spv
+Downloads                  dwhelper
+Google Drive               iCloud Drive (Archive)
+IMG_8915.JPG               iCloud Drive (Archive) - 1
+Library                    interactive
+Movies
+➜  ~ interactive
+➜  interactive ls
+annotated_image_rover demo2020              image-switcher        interactiveimage
+calorie-calculator    flexbox-example-1     inputs_and_maths
+➜  interactive git clone https://github.com/ViolettaNespolo2/balancing-the-budget.git
+Cloning into 'balancing-the-budget'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+➜  interactive ls 
+annotated_image_rover calorie-calculator    flexbox-example-1     inputs_and_maths
+balancing-the-budget  demo2020              image-switcher        interactiveimage
+➜  interactive cd balancing-the-budget 
+➜  balancing-the-budget git:(master) git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	index.html
+	main.js
+	style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  balancing-the-budget git:(master) ✗ git add .
+➜  balancing-the-budget git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .DS_Store
+	modified:   README.md
+	new file:   index.html
+	new file:   main.js
+	new file:   style.css
+
+➜  balancing-the-budget git:(master) ✗ git commit -m "initial commit"
+[master 691ecb9] initial commit
+ 5 files changed, 208 insertions(+), 1 deletion(-)
+ create mode 100644 .DS_Store
+ rewrite README.md (100%)
+ create mode 100644 index.html
+ create mode 100644 main.js
+ create mode 100644 style.css
+➜  balancing-the-budget git:(master) git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 3.27 KiB | 3.27 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/ViolettaNespolo2/balancing-the-budget.git
+   1f901fd..691ecb9  master -> master
+➜  balancing-the-budget git:(master) git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+➜  balancing-the-budget git:(master) atom .
+➜  balancing-the-budget git:(master) git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   index.html
+	modified:   main.js
+	modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  balancing-the-budget git:(master) ✗ git add .
+➜  balancing-the-budget git:(master) ✗ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   index.html
+	modified:   main.js
+	modified:   style.css
+
+➜  balancing-the-budget git:(master) ✗ git commit -m "class end"
+[master 4c4d6fd] class end
+ 3 files changed, 160 insertions(+), 133 deletions(-)
+ rewrite index.html (93%)
+➜  balancing-the-budget git:(master) git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.15 KiB | 1.15 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ViolettaNespolo2/balancing-the-budget.git
+   691ecb9..4c4d6fd  master -> master
+➜  balancing-the-budget git:(master) git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+➜  balancing-the-budget git:(master) 
